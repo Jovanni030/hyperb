@@ -954,7 +954,7 @@ function dez(){
 var vicr = []
 for(y=0; y<14; y++){
     vicr[y] = new Image
-    vicr[y].src = 'viic/vic'+y+'.png'
+    vicr[y].src = 'viic/vic'+y+'.PNG'
 }
 var aa = 0
 function winin(){
