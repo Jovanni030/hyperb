@@ -545,7 +545,7 @@ for(hc=0; hc<45; hc++){
 for(i=0; i<45; i++){
     for(c=0; c<8; c++){
         sqs[i][c] = new Image
-        sqs[i][c].src = 'tss/'+i+''+c+'.PNG'
+        sqs[i][c].src = i+''+c+'.PNG'
         //console.log(sqs[i][c])
     }
 }
@@ -556,13 +556,13 @@ for(hc=0; hc<17; hc++){
 }
 for(i=0; i<17; i++){
     obs[i][0] = new Image
-    obs[i][0].src = 'tss/'+i+''+'a.PNG'
+    obs[i][0].src = i+''+'a.PNG'
     //console.log(sqs[i][c])
     obs[i][1] = new Image
-    obs[i][1].src = 'tss/'+i+''+'b.PNG'
+    obs[i][1].src = +i+''+'b.PNG'
 
     obs[i][2] = new Image
-    obs[i][2].src = 'tss/'+i+''+'c.PNG'
+    obs[i][2].src = +i+''+'c.PNG'
 }
 
 
